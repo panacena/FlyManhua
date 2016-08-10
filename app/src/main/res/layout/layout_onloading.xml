@@ -1,0 +1,21 @@
+<LinearLayout android:id="@+id/rel_onloading"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ProgressBar
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="正在加载..."
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="12dp"/>
+
+</LinearLayout>

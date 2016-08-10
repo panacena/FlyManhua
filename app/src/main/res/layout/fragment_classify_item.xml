@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="@drawable/selector_list">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_defalut_two"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:singleLine="true"
+            android:layout_marginTop="8dp"
+            android:text="飚速宅男"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:layout_centerVertical="true"
+            android:maxLines="2"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:text="坂道上，平地间，终点前，猛踩踏板吧少年"
+            android:textSize="14sp"
+            android:textColor="@color/secondary_text"/>
+
+        <TextView
+            android:id="@+id/tv_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="第381话"
+            android:textSize="13sp"
+            android:textColor="@color/secondary_text"
+            android:layout_marginBottom="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:id="@+id/tv_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:text="真岛浩"
+            android:textSize="13sp"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider"/>
+</LinearLayout>

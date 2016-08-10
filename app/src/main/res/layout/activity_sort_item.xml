@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_list"
+        android:padding="8dp">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="海贼王分析821话"
+            android:textSize="12sp"
+            android:textColor="@color/primary_text"
+            android:layout_below="@+id/img"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014-01-01"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginTop="8dp"
+            android:textSize="11sp"
+            android:textColor="@color/secondary_text"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/tv_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8dp"
+            android:text="第231话"
+            android:textSize="11sp"
+            android:textColor="@android:color/holo_red_light"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

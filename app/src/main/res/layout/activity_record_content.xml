@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:minHeight="58dp"
+    android:background="@drawable/selector_list">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="68dp"
+        android:background="@color/divider"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="妖精的尾巴"
+        android:textColor="@color/primary_text"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/divider"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="16dp"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第60话"
+        android:textColor="@color/secondary_text"
+        android:textSize="12sp"
+        android:layout_below="@id/tv_title"
+        android:layout_toRightOf="@+id/divider"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:singleLine="true"/>
+
+</RelativeLayout>

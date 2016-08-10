@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_list">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_clock_block"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/img"
+        android:text="妖精的尾巴"
+        android:textSize="14sp"
+        android:textColor="@color/secondary_text"
+        android:layout_marginLeft="8dp"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:layout_marginRight="50dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rel_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_list"
+        android:layout_alignParentRight="true">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_wrong"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:scaleType="fitXY"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider"
+        android:layout_below="@+id/tv_info"/>
+
+</RelativeLayout>
